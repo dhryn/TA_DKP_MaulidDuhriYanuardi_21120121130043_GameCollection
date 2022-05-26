@@ -11,10 +11,5 @@
             <a href="jankenpon.php"><img src="jankenpon.png" class="main-gambar"></a>
             <a href="tictactoe.html"><img src="tictactoe.png" class="main-gambar"></a>
         </div>
-
-        <?php
-        include("login.php");
-        $user = new userService($_POST['username']);
-        ?>
     </body>
 </html>
