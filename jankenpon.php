@@ -26,6 +26,7 @@
             </form>
             
             <?php
+            error_reporting(0);
             $player = $_GET["player"];
             $computer = rand(1, 3);
             
